@@ -4,7 +4,7 @@ import React from "react";
 const About = () => {
   return (
     <div className="">
-      <h1 className="title my-10">About BetaClan</h1>
+      <h1 className="title my-10">About Infocoin</h1>
       <div className="lg:flex gap-10 items-center">
         <Image
           className=" rounded-lg lg:hidden mb-5"
@@ -15,7 +15,7 @@ const About = () => {
         />
         <div className="lg:w-[50%]">
           <p className="text-xl mb-5 text-center">
-            BetaClan is a platform where you can buy data and airtime with any
+            Infocoin is a platform where you can buy data and airtime with any
             currency you have (on-chain and off-chain In Infocoin you can have a
             subscription plan for any perion of time you want Infocoin is the
             fast, secure and affordable way to get your data bundles on any

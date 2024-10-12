@@ -10,7 +10,7 @@ const Header = () => {
       <div className="items-center border-b-[1px] border-gray-200 flex justify-between bg-slate-50 -m-10 p-5">
         {/* logo */}
 
-        <h1 className="text-primary font-bold text-xl">BetaClan</h1>
+        <h1 className="text-primary font-bold text-xl">Infocoin</h1>
 
         {/* navitems */}
         <div className="lg:flex gap-5 hidden ">
@@ -22,7 +22,7 @@ const Header = () => {
         </div>
         {/* signin */}
         <div className="lg:flex gap-5 hidden">
-          <button className="btn-trans">Sign Up</button>
+          {/* <button className="btn-trans">Sign Up</button> */}
           <button className="btn-full">Connect Wallet</button>
         </div>
 

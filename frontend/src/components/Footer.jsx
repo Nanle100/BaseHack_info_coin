@@ -5,7 +5,7 @@ const Footer = () => {
     <div className="lg:flex gap-10 bg-primary -m-10 mt-5 p-10 text-white">
       {/* one */}
       <div className="lg:w-[30%] p-10">
-        <h1>BetaClan</h1>
+        <h1>Infocoin</h1>
         <p>Check infocoin in our social media channel</p>
       </div>
 
