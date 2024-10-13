@@ -11,10 +11,10 @@ import { useState } from "react";
 export default function Home() {
   const [isViewBundle, setIsViewBundle] = useState(false);
   return (
-    <div className="p-10">
+    <div className="lg:p-10 p-5">
       {!isViewBundle ? (
         <div className="">
-          <Header />
+          <Header setIsViewBundle={setIsViewBundle} />
           <Hero />
           <About setIsViewBundle={setIsViewBundle} />
           <Databundle />
