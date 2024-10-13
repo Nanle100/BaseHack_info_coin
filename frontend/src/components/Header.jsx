@@ -1,6 +1,7 @@
 "use client";
 import { navItems } from "@/constants";
 import Image from "next/image";
+import Link from "next/link";
 import React, { useState } from "react";
 
 const Header = () => {
@@ -10,7 +11,9 @@ const Header = () => {
       <div className="items-center border-b-[1px] border-gray-200 flex justify-between bg-slate-50 -m-10 p-5">
         {/* logo */}
 
-        <h1 className="text-primary font-bold text-xl">Infocoin</h1>
+        <Link href="/" className="text-primary font-bold text-xl">
+          Infocoin
+        </Link>
 
         {/* navitems */}
         <div className="lg:flex gap-5 hidden ">
@@ -38,12 +41,14 @@ const Header = () => {
       </div>
 
       {isMenuClicked && (
-        <div className="bg-white fixed h-[170px] w-[85%] shadow-xl mt-10 z-50 p-4">
+        <div className="bg-white fixed h-[220px] w-[85%] shadow-xl mt-10 z-50 p-4">
           {navItems.map((item) => (
             <>
               <p className="my-2">{item.label}</p>
             </>
           ))}
+
+          <w3m-button />
         </div>
       )}
     </div>

@@ -13,7 +13,7 @@ const projectId = "YOUR_PROJECT_ID";
 const metadata = {
   name: "My Website",
   description: "My Website description",
-  url: "https://mywebsite.com", // origin must match your domain & subdomain
+  // url: "https://mywebsite.com", // origin must match your domain & subdomain
   icons: ["https://avatars.mywebsite.com/"],
 };
 
