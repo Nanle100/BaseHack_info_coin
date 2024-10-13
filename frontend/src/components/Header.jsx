@@ -23,7 +23,8 @@ const Header = () => {
         {/* signin */}
         <div className="lg:flex gap-5 hidden">
           {/* <button className="btn-trans">Sign Up</button> */}
-          <button className="btn-full">Connect Wallet</button>
+          {/* <button className="btn-full">Connect Wallet</button> */}
+          <w3m-button />
         </div>
 
         <Image
