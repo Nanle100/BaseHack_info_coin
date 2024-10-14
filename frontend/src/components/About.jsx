@@ -1,7 +1,11 @@
+"use client";
 import Image from "next/image";
+import Link from "next/link";
+import { useRouter } from "next/navigation";
 import React from "react";
 
-const About = () => {
+const About = ({ setIsViewBundle }) => {
+  const router = useRouter();
   return (
     <div className="">
       <h1 className="title my-10">About Infocoin</h1>
@@ -23,7 +27,10 @@ const About = () => {
             9mobile and Glo. You can get any data bundle as low as 500MB with
             crypto currency.
           </p>
-          <button className="btn-full w-full mt-3 lg:w-[50%]">
+          <button
+            onClick={() => setIsViewBundle(true)}
+            className="btn-full w-full mt-3 lg:w-[50%] cursor-pointer"
+          >
             View Bundle
           </button>
         </div>
